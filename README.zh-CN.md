@@ -23,7 +23,9 @@ Windows 实时屏幕分析工具：持续观察你的屏幕，用**本地 OCR**�
 
 ## 截图
 
-*（在这里补充控制台与悬浮窗的截图 —— 可将本块替换为 `![控制台](docs/console.png)`）*
+![控制台](docs/console.png)
+
+![悬浮窗](docs/overlay.png)
 
 ## 快速开始
 

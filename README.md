@@ -25,7 +25,9 @@ Real-time screen analysis for Windows. It watches your display, extracts text an
 
 ## Screenshots
 
-*(Add screenshots of the console and floating window here — replace this block with `![console](docs/console.png)`)*
+![Console](docs/console.png)
+
+![Floating overlay](docs/overlay.png)
 
 ## Quick Start
 
