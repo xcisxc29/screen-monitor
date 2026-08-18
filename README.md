@@ -1,5 +1,7 @@
 # Screen Monitor Assistant
 
+**[English](README.md) | [简体中文](README.zh-CN.md)**
+
 Real-time screen analysis for Windows. It watches your display, extracts text and questions with **local OCR** (zero cloud cost, no rate limits), answers them with **DeepSeek AI**, and shows results in a **floating overlay window** — all managed from a small **GUI console**.
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
