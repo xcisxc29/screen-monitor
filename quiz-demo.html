@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>模拟小测 · 屏幕监测演示</title>
+<style>
+  body { font-family: "Microsoft YaHei", sans-serif; background: #f2f4f8; color: #1a1d24;
+         margin: 0; padding: 26px 48px; font-size: 19px; line-height: 1.65; }
+  h1 { font-size: 26px; margin: 0 0 6px; color: #14417c; }
+  .sub { color: #667; font-size: 14px; margin-bottom: 22px; }
+  .card { background: #fff; border: 1px solid #dde3ec; border-radius: 10px;
+          padding: 14px 18px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+  .qhead { font-weight: 600; margin-bottom: 6px; }
+  .tag { display: inline-block; font-size: 12px; padding: 1px 8px; border-radius: 9px;
+         background: #e8f0fe; color: #14417c; margin-right: 8px; }
+  .opts { margin-left: 24px; color: #2a2e38; }
+  .opts div { padding: 2px 0; }
+  .fill { margin-left: 24px; color: #2a2e38; }
+  .fill span { border-bottom: 2px dashed #999; padding: 0 60px; }
+</style>
+</head>
+<body>
+<h1>模拟小测 · 屏幕监测演示</h1>
+<div class="sub">共 6 题 · 单选 3 · 判断 2 · 填空 1 —— 页面略超一屏，滚动可观察监测补全</div>
+
+<div class="card">
+  <div class="qhead"><span class="tag">单选</span>1. 标准大气压下，水的沸点是多少摄氏度？</div>
+  <div class="opts">
+    <div>A. 90℃</div>
+    <div>B. 100℃</div>
+    <div>C. 110℃</div>
+    <div>D. 120℃</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="qhead"><span class="tag">单选</span>2. 我国现行宪法是下列哪一年颁布的？</div>
+  <div class="opts">
+    <div>A. 1954年</div>
+    <div>B. 1975年</div>
+    <div>C. 1982年</div>
+    <div>D. 1999年</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="qhead"><span class="tag">单选</span>3. 「光年」是用来衡量什么的单位？</div>
+  <div class="opts">
+    <div>A. 时间</div>
+    <div>B. 速度</div>
+    <div>C. 长度</div>
+    <div>D. 亮度</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="qhead"><span class="tag">判断</span>4. 声音在真空中不能传播。</div>
+  <div class="opts">
+    <div>A. 正确</div>
+    <div>B. 错误</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="qhead"><span class="tag">判断</span>5. 地球绕太阳公转一周约需 365 天。</div>
+  <div class="opts">
+    <div>A. 正确</div>
+    <div>B. 错误</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="qhead"><span class="tag">填空</span>6. 中国的国歌是《______》。</div>
+  <div class="fill"><span></span></div>
+</div>
+
+<div id="bottom"></div>
+
+<script>
+  // 测试辅助：?scroll=bottom 打开时自动滚到页面底部
+  if (location.search.indexOf('scroll=bottom') >= 0) {
+    window.addEventListener('load', function () { window.scrollTo(0, document.body.scrollHeight); });
+  }
+</script>
+
+</body>
+</html>

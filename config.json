@@ -1,0 +1,40 @@
+{
+    "intervalSec":  3,
+    "debounceSec":  2,
+    "maxWaitSec":  12,
+    "ocrLang":  "zh-Hans-CN",
+    "excludeRegion":  {
+                          "minX":  1859,
+                          "maxX":  2359,
+                          "minY":  255,
+                          "maxY":  685
+                      },
+    "analyzeRegion":  {
+                          "enabled":  false,
+                          "x":  0,
+                          "y":  0,
+                          "w":  0,
+                          "h":  0
+                      },
+    "changeThreshold":  0.005,
+    "forceAnalysisEvery":  12,
+    "truncateOverlay":  1200,
+    "startOverlay":  false,
+    "openEdgeTab":  true,
+    "llm":  {
+                "enabled":  true,
+                "endpoint":  "https://api.deepseek.com/chat/completions",
+                "model":  "deepseek-chat",
+                "apiKey": "",
+                "cacheMax":  60,
+                "cacheSimilarity": 0.85
+            },
+    "llmCost":  {
+                    "promptPerM":  0.14,
+                    "completionPerM":  0.28
+                },
+    "paths":  {
+                  "base": "",
+                  "result": ""
+              }
+}
